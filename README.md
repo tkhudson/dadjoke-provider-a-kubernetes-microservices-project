@@ -9,7 +9,14 @@ I am currently in the stage to deploy this into a portfolio website and host it 
 Feel free to explore the project's code, architecture, and deployment details.
 
 ### To deploy the project:
-You will need to get the backend joke services up and running. That is the joke, user, and api-gateway services. Then all thats needed is to deploy the frontend with the following command:
+You will need to get the backend joke services up and running. That is the joke, user, and api-gateway services. To do so, open a seperate terminal for each service and run the following commands:
+```
+./start_apiservice.sh
+./start_jokeservice.sh
+./start_userservice.sh
+```
+
+Then all thats needed is to deploy the frontend with the following command:
 ```
 npm start
 ```
