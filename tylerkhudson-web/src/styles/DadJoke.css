@@ -1,0 +1,26 @@
+.dad-joke-container {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .dad-joke-container button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .dad-joke-container button:hover {
+    background-color: #21a1cb;
+  }
+  

@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, request
 import requests
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 
 JOKE_SERVICE_URL = "http://localhost:5000"
 USER_SERVICE_URL = "http://localhost:5001"
